@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Type Data Visualization</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style type="text/css">
+       
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Blood Type Data Visualization</h1>
+            <div id="filters">
+                <label for="type-select">Select Type:</label>
+                <select id="type-select"></select>
+                <label for="group-select">Select Group:</label>
+                <select id="group-select"></select>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <canvas id="bloodTypeChart" width="800" height="400"></canvas>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
